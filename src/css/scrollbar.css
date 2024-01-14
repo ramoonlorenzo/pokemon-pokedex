@@ -1,25 +1,25 @@
 main .description::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 
 main .description::-webkit-scrollbar-track {
-    background: #333333;
-    border-radius: 10px;
+  background: #333333;
+  border-radius: 10px;
 }
 
 main .description::-webkit-scrollbar-thumb {
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    border: 1px solid #616161;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border: 1px solid #616161;
 }
 
 .dark-theme main .description::-webkit-scrollbar-track {
-    background: #e8e8e8;
-    border-radius: 10px;
+  background: #e8e8e8;
+  border-radius: 10px;
 }
 
 .dark-theme main .description::-webkit-scrollbar-thumb {
-    background-color: #333333;
-    border-radius: 10px;
-    border: 1px solid #f5f5f5;
+  background-color: #333333;
+  border-radius: 10px;
+  border: 1px solid #f5f5f5;
 }

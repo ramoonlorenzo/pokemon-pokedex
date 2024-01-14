@@ -1,134 +1,134 @@
 body {
-    font-family: "Poppins", sans-serif;
-    max-width: 1280px;
-    margin: 0 auto;
-    background-color: #dadada;
-    color: #333333;
+  font-family: "Poppins", sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #dadada;
+  color: #333333;
 }
 
 body.dark-theme {
-    background-color: #333333;
-    color: #f5f5f5;
+  background-color: #333333;
+  color: #f5f5f5;
 }
 
 body.dark-theme .card-pokemon {
-    background-color: #616161;
+  background-color: #616161;
 }
 
 body.dark-theme .card-pokemon .information {
-    border: 1px solid #f5f5f5;
+  border: 1px solid #f5f5f5;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
 }
 
 header .logo,
 header .button-image {
-    width: 30px;
-    transition: 0.2s ease-in-out;
+  width: 30px;
+  transition: 0.2s ease-in-out;
 }
 
 #button-theme-alt {
-    background: none;
-    border: none;
+  background: none;
+  border: none;
 }
 
 header .logo:hover,
 header .button-image:hover,
 main .card-pokemon:hover {
-    transform: scale(1.05);
-    cursor: pointer;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 main {
-    padding: 25px;
+  padding: 25px;
 }
 
 main .list-pokemon {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
 }
 
 main .card-pokemon {
-    background-color: #e8e8e8;
-    width: 220px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    border-radius: 15px;
-    transition: 0.2s ease-in-out;
+  background-color: #e8e8e8;
+  width: 220px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-radius: 15px;
+  transition: 0.2s ease-in-out;
 }
 
 main .card-pokemon:hover {
-    background-color: #96d9d6;
+  background-color: #96d9d6;
 }
 
 .dark-theme .card-pokemon:hover {
-    background-color: #81bab8;
+  background-color: #81bab8;
 }
 
 main .card-pokemon .information {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #333333;
-    border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #333333;
+  border-radius: 10px;
 }
 
 main .card-pokemon .information span {
-    padding: 5px;
-    text-transform: uppercase;
-    font-size: 17px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 17px;
 }
 
 main .card-pokemon .pokemon {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 main .card-pokemon .types {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 main .card-pokemon .type {
-    padding: 8px;
-    border-radius: 10px;
+  padding: 8px;
+  border-radius: 10px;
 }
 
 .grass {
-    background-color: #9bcc50;
+  background-color: #9bcc50;
 }
 
 .poison {
-    background-color: #b97fc9;
+  background-color: #b97fc9;
 }
 
 .fire {
-    background-color: #fd7d24;
+  background-color: #fd7d24;
 }
 
 .flying {
-    background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+  background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
 }
 
 .water {
-    background-color: #4592c4;
+  background-color: #4592c4;
 }
 
 .bug {
-    background-color: #729f3f;
+  background-color: #729f3f;
 }
 
 main .description {
-    max-height: 80px;
-    overflow-y: scroll;
-    font-size: 14px;
-    padding-right: 10px;
+  max-height: 80px;
+  overflow-y: scroll;
+  font-size: 14px;
+  padding-right: 10px;
 }
